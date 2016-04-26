@@ -1,0 +1,45 @@
+Presentaion on BMI
+========================================================
+author: Shraddha Shrestha
+date: 25 April,2016
+
+Introduction to BMI Index
+========================================================
+
+The body mass index (BMI) also known as Quetelet index is a value derived from the mass (weight) and height of an individual. The BMI is defined as the body mass divided by the square of the body height, and is universally expressed in units of kg/m2, resulting from mass in kilograms and height in metres.
+
+BMI is a useful measure of overweight and obesity. It is calculated from your height and weight. BMI is an estimate of body fat and a good gauge of your risk for diseases that can occur with more body fat. The higher your BMI, the higher your risk for certain diseases such as heart disease, high blood pressure, type 2 diabetes, gallstones, breathing problems, and certain cancers.
+
+Formula to calculate BMI Index
+========================================================
+
+```{r}
+weight <- 100
+height <- 100
+BMI = weight / (height) ^ 2 * 703
+BMI
+```
+Categories of BMI
+========================================================
+
+Following are the BMI Categories :
+
+- Underweight = <18.5
+- Normal weight = 18.5-24.9 
+- Overweight = 25-29.9 
+- Obesity = BMI of 30 or greater
+
+Calculation of Body Mass Index
+========================================================
+
+Body Mass Index is calculated by using the simple formula. This application is created inorder to calculate BMI for users in a simple way. Following are the steps to calculate BMI :
+
+- Enter weight, height, gender and date of a person whos BMI is to be calculated.
+- The BMI is calculated as per the standard formula.
+- On the basis of BMI, a person is automatically categorized into BMI category.
+
+Importance of Body Mass Index
+========================================================
+
+Body Mass Index scores are a good indicator of whether you are at a healthy weight and how much body fat you have. Having a high bmi can increase your risk factors for certain diseases such as cardiovascular disease (or heart disease), high blood pressure and diabetes type 2.
+
